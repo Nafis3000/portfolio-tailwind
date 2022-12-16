@@ -11,9 +11,9 @@ const Navbar = () => {
     }
 
   return (
-    <div className='fixed w-full h-19 shadow-xl z-[100] bg-slate-200'>
+    <div className='fixed w-full h-19 shadow-2xl z-[100] bg-slate-200'>
         <div className = 'flex justify-between items-center w-full h-full pr-2 2xl:px-16'>
-            <Image src='/NA.png' alt="/" width='75' height='50' />
+            <Image src='/NA.png' alt="/" width='75' height='50' className="" />
             <div>
                 <ul className="hidden md:flex">
                     <Link href='/'>
@@ -33,12 +33,12 @@ const Navbar = () => {
                     </Link>
                 </ul>
             </div>
-            <div onClick={handleNav} className='md:hidden'>
+            <div onClick={handleNav} className='md:hidden cursor-pointer'>
                 <AiOutlineMenu size={40} className='text-2xl' />
             </div>
         </div>
     
-    <div className={show ? "fixed left-0 top-0 w-full h-screen bg-black/70": "" } >
+    <div className={show ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70": "" } >
         <div className={show ? 'fixed left-0 top-0 w-[65%] sm:w-[60%] md:w-[45%] h-screen bg-slate-200 p-1 ease-in duration-500' : 'fixed left-[-100%] top-0  p-1 ease-in duration-500'}>
             <div>
                 <div className='flex w-full items-center justify-between'>
