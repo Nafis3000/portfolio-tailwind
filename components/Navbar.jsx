@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from "react-icons/ai";
-import {FaLinkedin, FaGithub,} from "react-icons/fa";
+import {AiOutlineClose, AiOutlineMenu, AiOutlineMail,} from "react-icons/ai";
+import {FaLinkedin, FaGithub, FaFreeCodeCamp} from "react-icons/fa";
 
 const Navbar = () => {
     const [show, setShow] = useState(false);
@@ -69,7 +69,7 @@ const Navbar = () => {
                         <li className="py-4 text-sm border-b border-gray-300">Contact</li>
                     </Link>
                 </ul>
-                    <div className="pt-40">
+                    <div className="mt-8">
                         <p className="uppercase tracking-widest text-blue-600 ml-2">
                             Let's Connect
                         </p>
@@ -84,7 +84,7 @@ const Navbar = () => {
                                 <AiOutlineMail/>
                             </div>
                             <div className="rounded shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duratation-300">
-                                <FaLinkedin/>
+                                <FaFreeCodeCamp/>
                             </div>
                         </div>
                     </div>
