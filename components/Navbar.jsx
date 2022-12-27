@@ -39,8 +39,8 @@ const Navbar = () => {
             </div>
         </motion.div>
     
-    <div className={show ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70": "" } >
-        <div className={show ? 'fixed left-0 top-0 w-[65%] sm:w-[60%] md:w-[45%] h-screen bg-slate-200 p-1 ease-in duration-500' : 'fixed left-[-100%] top-0  p-1 ease-in duration-500'}>
+    <div className={show ? "md:hidden fixed left-0 top-0 w-full h-full bg-black/70": "" } >
+        <div className={show ? 'fixed left-0 top-0 w-[65%] sm:w-[60%] md:w-[45%] h-full bg-slate-200 p-1 ease-in duration-500' : 'fixed left-[-100%] top-0  p-1 ease-in duration-500'}>
             <div>
                 <div className='flex w-full items-center justify-between'>
                     <Image src='/NA.png' alt="/" width='60' height='30' className="rounded" />
