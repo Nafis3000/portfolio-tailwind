@@ -58,7 +58,7 @@ const Skills = () => {
                 <motion.div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' variants={childVariants2}>
                     <motion.div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <motion.div className='m-auto'>
-                            <Image src='/../public/static/skills/html.png' width={64} height={64} alt='html logo'/>
+                            <Image src='/html.png' width={64} height={64} alt='html logo'/>
                         </motion.div>
                         <motion.div className='flex flex-col items-center justify-center'>
                             <motion.h3>HTML</motion.h3>
@@ -69,7 +69,7 @@ const Skills = () => {
                 <motion.div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' variants={childVariants2}>
                     <motion.div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <motion.div className='m-auto'>
-                            <Image src='/../public/static/skills/css.png' width={64} height={64} alt='css logo' />
+                            <Image src='/css.png' width={64} height={64} alt='css logo' />
                         </motion.div>
                         <motion.div className='flex flex-col items-center justify-center'>
                             <motion.h3>CSS</motion.h3>
@@ -80,7 +80,7 @@ const Skills = () => {
                 <motion.div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' variants={childVariants2}>
                     <motion.div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <motion.div className='m-auto'>
-                            <Image src='/../public/static/skills/javascript.png' width={64} height={64} alt='javascript logo' />
+                            <Image src='/javascript.png' width={64} height={64} alt='javascript logo' />
                         </motion.div>
                         <motion.div className='flex flex-col items-center justify-center'>
                             <motion.h3>JavaScript</motion.h3>
@@ -91,7 +91,7 @@ const Skills = () => {
                 <motion.div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' variants={childVariants2}>
                     <motion.div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <motion.div className='m-auto'>
-                            <Image src='/../public/static/skills/github1.png' width={64} height={64} alt='github logo' />
+                            <Image src='/github1.png' width={64} height={64} alt='github logo' />
                         </motion.div>
                         <motion.div className='flex flex-col items-center justify-center'>
                             <motion.h3>GitHub</motion.h3>
@@ -102,7 +102,7 @@ const Skills = () => {
                 <motion.div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' variants={childVariants2}>
                     <motion.div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <motion.div className='m-auto'>
-                            <Image src='/../public/static/skills/react.png' width={64} height={64} alt='react logo' />
+                            <Image src='/react.png' width={64} height={64} alt='react logo' />
                         </motion.div>
                         <motion.div className='flex flex-col items-center justify-center'>
                             <motion.h3>React</motion.h3>
@@ -113,7 +113,7 @@ const Skills = () => {
                 <motion.div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' variants={childVariants2}>
                     <motion.div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <motion.div className='m-auto'>
-                            <Image src='/../public/static/skills/nextjs.png' width={64} height={64} alt='next.js logo' />
+                            <Image src='/nextjs.png' width={64} height={64} alt='next.js logo' />
                         </motion.div>
                         <motion.div className='flex flex-col items-center justify-center'>
                             <motion.h3>Next.js</motion.h3>
@@ -124,7 +124,7 @@ const Skills = () => {
                 <motion.div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' variants={childVariants2}>
                     <motion.div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <motion.div className='m-auto'>
-                            <Image src='/../public/static/skills/tailwind.png' width={64} height={64} alt='tailwind logo' />
+                            <Image src='/tailwind.png' width={64} height={64} alt='tailwind logo' />
                         </motion.div>
                         <motion.div className='flex flex-col items-center justify-center'>
                             <motion.h3>Tailwind</motion.h3>
@@ -135,7 +135,7 @@ const Skills = () => {
                 <motion.div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' variants={childVariants2}>
                     <motion.div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <motion.div className='m-auto'>
-                            <Image src='/../public/static/skills/framermotion.png' width={64} height={64} alt='framer motion logo' />
+                            <Image src='/framermotion.png' width={64} height={64} alt='framer motion logo' />
                         </motion.div>
                         <motion.div className='flex flex-col items-center justify-center'>
                             <motion.h3>Framer Motion</motion.h3>
