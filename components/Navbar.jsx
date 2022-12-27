@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail,} from "react-icons/ai";
 import {FaLinkedin, FaGithub, FaFreeCodeCamp} from "react-icons/fa";
+import { motion, useScroll } from "framer-motion";
 
 const Navbar = () => {
     const [show, setShow] = useState(false);
@@ -11,8 +12,8 @@ const Navbar = () => {
     }
 
   return (
-    <div className='fixed w-full h-19 shadow-2xl z-[100] bg-slate-200'>
-        <div className = 'flex justify-between items-center w-full h-full pr-2 2xl:px-16'>
+    <motion.div className='fixed w-full h-19 shadow-2xl z-[100] bg-slate-200'>
+        <motion.div className = 'flex justify-between items-center w-full h-full pr-2 2xl:px-16'>
             <Image src='/NA.png' alt="/" width='75' height='50' className="" />
             <div>
                 <ul className="hidden md:flex">
@@ -36,7 +37,7 @@ const Navbar = () => {
             <div onClick={handleNav} className='md:hidden cursor-pointer'>
                 <AiOutlineMenu size={40} className='text-2xl' />
             </div>
-        </div>
+        </motion.div>
     
     <div className={show ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70": "" } >
         <div className={show ? 'fixed left-0 top-0 w-[65%] sm:w-[60%] md:w-[45%] h-screen bg-slate-200 p-1 ease-in duration-500' : 'fixed left-[-100%] top-0  p-1 ease-in duration-500'}>
@@ -73,7 +74,7 @@ const Navbar = () => {
                         <p className="uppercase tracking-widest text-blue-600 ml-2">
                             Let's Connect
                         </p>
-                        <div className="flex items-center justify-around my-6 w-full sm:w[80%]">
+                        <div className="flex items-center justify-around my-6 w-full sm:w[80%] text-4xl">
                             <div className="rounded shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duratation-300">
                                 <FaLinkedin/>
                             </div>
@@ -91,7 +92,7 @@ const Navbar = () => {
             </div>
         </div>
     </div>
-    </div>
+    </motion.div>
   )
 }
 

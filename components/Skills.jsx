@@ -6,7 +6,7 @@ const Skills = () => {
     const mainVariants = {
         hidden: {
             opacity: 0,
-            x:"-20rem"
+            x:"-10rem"
         },
         visible: {
             opacity: 1,
@@ -14,7 +14,7 @@ const Skills = () => {
             transition: {
                 duration: 0.5,
                 when: "beforeChildren",
-                staggerChildren: 0.5
+                staggerChildren: 0.3
             }
         }
     }
@@ -51,8 +51,8 @@ const Skills = () => {
   return (
     <motion.div className='w-full lg:h-screen p-2'>
         <motion.div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full' variants={mainVariants} initial={'hidden'} whileInView={'visible'}>
-            <motion.p className='text-xl tracking-widest text-gray-500 font-semibold' variants={childVariants}>Skills</motion.p>
-            <motion.h2 className='py-4' variants={childVariants}>What I Can Do</motion.h2>
+            <motion.p className='text-2xl tracking-widest text-gray-500 font-semibold' variants={childVariants}>Skills</motion.p>
+            <motion.h1 className='text-3xl font-bold py-4' variants={childVariants}>What I Can Do</motion.h1>
             <motion.div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8' variants={childVariants}>
 
                 <motion.div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' variants={childVariants2}>

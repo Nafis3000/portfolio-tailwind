@@ -1,0 +1,6 @@
+<?xml version="1.0" standalone="no"?>
+<svg id="Vector1" width="104" height="47" viewBox="0 0 104 47" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; max-height: 100%;">
+<path d="M1 43V7L16 43V7M32.5 43L28.75 25M18.5 43L21.75 25M21.75 25L25 7L28.75 25M21.75 25H28.75M35 43V19M46.5 7H35V19M35 19H42M49 7H55M61 7H55M55 7V43H49H61M75.5 7H64V25H75.5V43H64M94 10L96.25 6M103 10L100.75 6M100.75 6L98.5 2L96.25 6M100.75 6H96.25M96.25 18.5V12.5L100.75 18.5V11.5M94 22L96.25 26.5L98.5 23.5L100.75 26.5L103 22M94 36L96.25 32.75M103 36L100.75 32.75M100.75 32.75L98.5 29.5L96.25 32.75M100.75 32.75H96.25M94 46V42M94 42V38.5H103V42H94ZM94 42L103 46" stroke="black" stroke-dasharray="0,0,0,502.4351501464844"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="2.5s" values="0,0,0,502.4351501464844; 
+          0,251.2175750732422,251.2175750732422,0; 
+          502.4351501464844,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></path>
+<setting>{"type":"direct","speed":20,"random":1,"shift":1,"size":1,"rupture":50}</setting></svg>
