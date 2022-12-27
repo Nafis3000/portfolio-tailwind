@@ -30,7 +30,7 @@ const pVariant = {
                 </motion.p>
             </motion.div>
             <motion.div initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 1}} className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4">
-                <img className="rounded-xl" src='https://images.unsplash.com/photo-1526925539332-aa3b66e35444?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGNvZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1296&q=60' alt='about' />
+                <img className="rounded-xl" src='https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fGNvZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60' alt='about' />
             </motion.div>
         </motion.div>
     </motion.div>
