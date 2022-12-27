@@ -35,7 +35,7 @@ module.exports = {
         'blur-in': 'blurIn 1s ease-out',
         'all-in': 'allIn 1.5s ease-out',
       },
+    },
   },
   plugins: [require("tailwindcss-animation-delay")],
-  }
 }
