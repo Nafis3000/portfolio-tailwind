@@ -71,10 +71,10 @@ const Navbar = () => {
                     </Link>
                 </ul>
                     <div className="mt-8">
-                        <p className="uppercase tracking-widest text-blue-600 ml-2">
+                        <p className="uppercase tracking-widest text-sky-600 ml-2">
                             Let's Connect
                         </p>
-                        <div className="flex items-center justify-around my-6 w-full sm:w[80%] text-4xl">
+                        <div className="flex items-center justify-around my-6 w-full sm:w[80%] text-3xl">
                             <div className="rounded shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duratation-300">
                                 <FaLinkedin/>
                             </div>

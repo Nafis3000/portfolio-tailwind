@@ -38,16 +38,16 @@ const Main = () => {
                 <motion.h1 className='mb-5 text-3xl tracking-widest'>Hi, my name is <span className='font-semibold text-red-600'>Nafis</span> and I am a self-taught web developer.</motion.h1>
                 <motion.p variants={childVariants} className='text-xl tracking-widest'>I have a passion for building beautiful and functional websites, and I am constantly learning and improving my skills. I am excited to share my work with you and hope you enjoy my portfolio.</motion.p>
                     <motion.div className="flex items-center justify-around m-auto max-w-[330px] mt-6 gap-5">
-                        <motion.div variants={childVariants} className="text-5xl rounded shadow-lg shadow-gray-400 p-5 cursor-pointer ">
+                        <motion.div variants={childVariants} className="text-4xl rounded shadow-lg shadow-gray-400 p-5 cursor-pointer ">
                             <FaLinkedin/>
                         </motion.div>
-                        <motion.div variants={childVariants} className="text-5xl rounded shadow-lg shadow-gray-400 p-5 cursor-pointer ">
+                        <motion.div variants={childVariants} className="text-4xl rounded shadow-lg shadow-gray-400 p-5 cursor-pointer ">
                             <FaGithub/>
                         </motion.div>
-                        <motion.div variants={childVariants} className="text-5xl rounded shadow-lg shadow-gray-400 p-5 cursor-pointer ">
+                        <motion.div variants={childVariants} className="text-4xl rounded shadow-lg shadow-gray-400 p-5 cursor-pointer ">
                             <AiOutlineMail/>
                         </motion.div>
-                        <motion.div variants={childVariants} className="text-5xl rounded shadow-lg shadow-gray-400 p-5 cursor-pointer">
+                        <motion.div variants={childVariants} className="text-4xl rounded shadow-lg shadow-gray-400 p-5 cursor-pointer">
                             <FaFreeCodeCamp/>
                         </motion.div>
                     </motion.div>
