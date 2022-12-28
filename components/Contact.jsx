@@ -24,7 +24,7 @@ const Contact = () => {
     }
 
   return (
-   <motion.div className='w-full lg:h-full' >
+   <motion.div id='contact' className='w-full lg:h-full' >
         <motion.div className='max-w-[1240px] m-auto px-2 py-16 w-full' variants={mainVariants} initial='hidden' whileInView={'visible'}>
             <motion.h2 className='text-gray-500 text-xl tracking-widest'>Contact</motion.h2>
             <motion.h1 className='text-3xl font-bold'>Get In Touch</motion.h1>
@@ -89,7 +89,7 @@ const Contact = () => {
                 </motion.div>
             </motion.div>
             <motion.div className='flex justify-center py-12'>
-                    <Link href='/'>
+                    <Link href='/#home'>
                         <motion.div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer text-sky-500' whileHover={{scale:1.2}}>
                             <HiOutlineChevronDoubleUp/>
                         </motion.div>

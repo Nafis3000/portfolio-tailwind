@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail,} from "react-icons/ai";
@@ -17,19 +17,19 @@ const Navbar = () => {
             <Image src='/NA.png' alt="/" width='75' height='50' className="" />
             <div>
                 <ul className="hidden md:flex">
-                    <Link href='/'>
+                    <Link href='/#home'>
                         <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
                     </Link>
-                    <Link href='/about'>
+                    <Link href='/#about'>
                         <li className="ml-10 text-sm uppercase hover:border-b">About</li>
                     </Link>
-                    <Link href='/skills'>
+                    <Link href='/#skills'>
                         <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
                     </Link>
-                    <Link href='/projects'>
+                    <Link href='/#projects'>
                         <li className="ml-10 text-sm uppercase hover:border-b">Projects</li>
                     </Link>
-                    <Link href='/contact'>
+                    <Link href='/#contact'>
                         <li className="ml-10 text-sm uppercase hover:border-b">Contact</li>
                     </Link>
                 </ul>
@@ -54,19 +54,19 @@ const Navbar = () => {
             </div>
             <div className="py-4 flex flex-col">
                 <ul className="uppercase ml-3">
-                    <Link href='/'>
+                    <Link href='/#home' onClick={handleNav}>
                         <li className="py-4 text-sm border-b border-gray-300">Home</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/#about' onClick={handleNav}>
                         <li className="py-4 text-sm border-b border-gray-300">About</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/#skills' onClick={handleNav}>
                         <li className="py-4 text-sm border-b border-gray-300">Skills</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/#projects' onClick={handleNav}>
                         <li className="py-4 text-sm border-b border-gray-300">Projects</li>
                     </Link>
-                    <Link href='/'>
+                    <Link href='/#contact' onClick={handleNav}>
                         <li className="py-4 text-sm border-b border-gray-300">Contact</li>
                     </Link>
                 </ul>
@@ -76,16 +76,24 @@ const Navbar = () => {
                         </p>
                         <div className="flex items-center justify-around my-6 w-full sm:w[80%] text-3xl">
                             <div className="rounded shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duratation-300">
-                                <FaLinkedin/>
+                                <Link href='https://www.linkedin.com/in/nafis-anwar-1a6a0a141/' target='_blank'>
+                                    <FaLinkedin/>
+                                </Link>
                             </div>
                             <div className="rounded shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duratation-300">
-                                <FaGithub/>
+                                <Link href='https://github.com/Nafis3000' target='_blank'>
+                                    <FaGithub/>
+                                </Link>
                             </div>
                             <div className="rounded shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duratation-300">
-                                <AiOutlineMail/>
+                                <Link href='mailto:nafis.3000@gmail.com' target='_blank'>
+                                    <AiOutlineMail/>
+                                </Link>
                             </div>
                             <div className="rounded shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duratation-300">
-                                <FaFreeCodeCamp/>
+                                <Link href='https://www.freecodecamp.org/fcc12f59cba-6269-44ac-9407-65b90082c113' target='_blank'>
+                                    <FaFreeCodeCamp/>
+                                </Link>
                             </div>
                         </div>
                     </div>

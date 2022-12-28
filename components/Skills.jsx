@@ -49,7 +49,7 @@ const Skills = () => {
     }
 
   return (
-    <motion.div className='w-full lg:h-screen p-2'>
+    <motion.div id='skills' className='w-full lg:h-screen p-2'>
         <motion.div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full' variants={mainVariants} initial={'hidden'} whileInView={'visible'}>
             <motion.p className='text-2xl tracking-widest text-gray-500 font-semibold' variants={childVariants}>Skills</motion.p>
             <motion.h1 className='text-3xl font-bold py-4' variants={childVariants}>What I Can Do</motion.h1>
